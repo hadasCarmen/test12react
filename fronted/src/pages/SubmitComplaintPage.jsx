@@ -3,7 +3,7 @@ import ComplaintForm from "../components/ComplaintForm";
 import { fetchComplaints } from "../api/complaintsApi.js";
 import { useEffect, useState } from "react";
 // import { createComplaint } from "../api/complaintsApi";
-
+import './SubmitComplaintPage.css'
 function SubmitComplaintPage() {
   // const navigate = useNavigate();
   const [list, setList] = useState([]);
@@ -23,7 +23,7 @@ function SubmitComplaintPage() {
       <h2>Submit Complaint</h2>
       <div>
         {list.map((terorist) => {
-          return <div  >
+          return <div className="line" >
             <div>{terorist.eventid}</div>
             <div>{terorist.iyear}</div>
             <div>{terorist.country_txt}</div>
