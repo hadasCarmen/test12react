@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router";
 // import React from "react";
 import { createRoot } from "react-dom/client";
-import HomePage from "./pages/HomePage";
+// import HomePage from "./pages/HomePage";
 import SubmitComplaintPage from "./pages/SubmitComplaintPage";
 // import AdminComplaintsPage from "./pages/AdminComplaintsPage";
 // import AdminLoginPage from "./pages/AdminLoginPage";
