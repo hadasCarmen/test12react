@@ -10,7 +10,6 @@ app.use(cors());
 // app.get("/health", (req, res) => {
 //   res.status(200).json({ status: "server running" });
 // });
-app.use("/api/complaints", router);
-
+app.use("/api/terorist", router);
 
 export default app;

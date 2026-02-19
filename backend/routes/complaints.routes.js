@@ -1,6 +1,6 @@
 import express from "express";
 
-import {getData} from '../controllers/complaints.controller.js'
+import { getData } from "../controllers/complaints.controller.js";
 
 const router = express.Router();
 
