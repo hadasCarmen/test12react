@@ -1,22 +1,21 @@
-.line{
-    display: flex;
-    /* margin: 1rem; */
-    width: 100%;
-    background-color: rgb(135, 211, 211);
+.line {
+  display: flex;
+  /* margin: 1rem; */
+  width: 100%;
+  background-color: rgb(135, 211, 211);
 }
-.line>*{
-    border: solid 1px gray;
-    
+.line > * {
+  border: solid 1px gray;
 }
-.zugi{
-    background-color: rgb(183, 172, 194);
+.zugi {
+  background-color: rgb(183, 172, 194);
 }
-.line:hover{
-    display: flex;
-    /* margin: 1rem; */
-    width: 100%;
-    background-color: rgb(211, 135, 182);
+.line:hover {
+  display: flex;
+  /* margin: 1rem; */
+  width: 100%;
+  background-color: rgb(211, 135, 182);
 }
-.zugi:hover{
- background-color: rgb(164, 218, 176);
+.zugi:hover {
+  background-color: rgb(164, 218, 176);
 }

@@ -1,14 +1,14 @@
 import React from "react";
 import { fetchComplaints } from "../api/complaintsApi";
 import { useState } from "react";
-import {  useNavigate } from "react-router";
+import { useNavigate } from "react-router";
 
 export default function Options(props) {
-  const { list, setList } = props;
+  const { setList } = props;
   const [serchi, setSerchi] = useState();
   const [yeari1, setYeari1] = useState();
   const [yeari2, setYeari2] = useState();
-    const navigate = useNavigate();
+  const navigate = useNavigate();
   async function cityOrCountryAndYear(e) {
     e.preventDefault();
     const filterList = await fetchComplaints();
@@ -60,7 +60,7 @@ export default function Options(props) {
             filter
           </button>
         </form>
-        <button onClick={()=>navigate('./question')}>page 2</button>
+        <button onClick={() => navigate("./question")}>page 2</button>
       </div>
     </>
   );

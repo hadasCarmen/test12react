@@ -2,8 +2,7 @@ import { fetchComplaints } from "../api/complaintsApi.js";
 import { useEffect, useState } from "react";
 import "./FilterTerror.css";
 function FilterTerror(props) {
-  
-  const {list,setList}=props
+  const { list, setList } = props;
   async function handleSubmit() {
     setList(await fetchComplaints());
     return list;
@@ -14,7 +13,6 @@ function FilterTerror(props) {
 
   return (
     <div>
-      
       <div>
         {list.map((terorist, idx) => {
           if (idx % 2 == 0) {
