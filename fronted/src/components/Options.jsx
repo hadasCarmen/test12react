@@ -60,7 +60,7 @@ export default function Options(props) {
             filter
           </button>
         </form>
-        <button onClick={() => navigate("./question")}>page 2</button>
+        <button onClick={() => navigate("/api/question")}>page 2</button>
       </div>
     </>
   );

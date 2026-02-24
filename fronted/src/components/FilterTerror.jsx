@@ -1,5 +1,5 @@
 import { fetchComplaints } from "../api/complaintsApi.js";
-import { useEffect, useState } from "react";
+import { useEffect} from "react";
 import "./FilterTerror.css";
 function FilterTerror(props) {
   const { list, setList } = props;
