@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { fetchComplaints } from "../api/complaintsApi";
 import { useNavigate } from "react-router";
-
+import './Question.css'
 function Question() {
   const navigate = useNavigate();
   const [answer, setAnswer] = useState();
